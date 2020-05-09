@@ -1,0 +1,116 @@
+import React from "react";
+import {
+  Checkbox,
+  FormControl,
+  FormLabel,
+  FormGroup,
+  FormControlLabel
+} from "@material-ui/core";
+
+const Color = ({ color, handleColor }) => {
+  return (
+    <FormControl component="fieldset">
+      <FormLabel component="legend">Filter by Color</FormLabel>
+      <FormGroup>
+        <FormControlLabel
+          control={
+            <Checkbox
+              checked={color.red}
+              value="red"
+              color="primary"
+              onChange={handleColor}
+              name="red"
+            />
+          }
+          label="Red"
+        />
+        <FormControlLabel
+          control={
+            <Checkbox
+              checked={color.orange}
+              value="orange"
+              color="primary"
+              onChange={handleColor}
+              name="orange"
+            />
+          }
+          label="Orange"
+        />
+        <FormControlLabel
+          control={
+            <Checkbox
+              checked={color.yellow}
+              value="yellow"
+              color="primary"
+              onChange={handleColor}
+              name="yellow"
+            />
+          }
+          label="Yellow"
+        />
+        <FormControlLabel
+          control={
+            <Checkbox
+              checked={color.green}
+              value="green"
+              color="primary"
+              onChange={handleColor}
+              name="green"
+            />
+          }
+          label="Green"
+        />
+        <FormControlLabel
+          control={
+            <Checkbox
+              checked={color.blue}
+              value="blue"
+              color="primary"
+              onChange={handleColor}
+              name="blue"
+            />
+          }
+          label="Blue"
+        />
+        <FormControlLabel
+          control={
+            <Checkbox
+              checked={color.white}
+              value="white"
+              color="primary"
+              onChange={handleColor}
+              name="white"
+            />
+          }
+          label="White"
+        />
+        <FormControlLabel
+          control={
+            <Checkbox
+              checked={color.black}
+              value="black"
+              color="primary"
+              onChange={handleColor}
+              name="black"
+            />
+          }
+          label="Black"
+        />
+        <FormControlLabel
+          control={
+            <Checkbox
+              checked={color.grey}
+              color="primary"
+              value="grey"
+              onChange={handleColor}
+              name="grey"
+            />
+          }
+          label="Grey"
+        />
+      </FormGroup>
+    </FormControl>
+  );
+};
+
+export default Color;
