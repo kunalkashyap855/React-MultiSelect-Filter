@@ -8,9 +8,9 @@ There is a dummy database of clothing products which is rendered on the app to s
 
 ## Screenshots
 
-![All products](https://ibb.co/kQ1rdnw)
-![Filter by name](https://drive.google.com/open?id=16OJ0wNOjz4mpuC-rnwj4eJoKH9rO2leA)
-![Filter by category and price](https://drive.google.com/open?id=1cUuEs7ce-1s72MRGL26xjwiXeybRbWqu)
+![All products](https://img.techpowerup.org/200509/screencapture-2oojn-csb-app-1589003308473.png)
+![Filter by name](https://img.techpowerup.org/200509/screencapture-2oojn-csb-app-1589003330792.png)
+![Filter by category and price](https://img.techpowerup.org/200509/screencapture-2oojn-csb-app-1589003365545.png)
 
 ## Installation
 - Clone the repo in your terminal by clicking the _green_ clone or download button at the top right and copyin the url
